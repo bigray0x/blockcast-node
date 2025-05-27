@@ -54,3 +54,21 @@ Navigate to the line where you see 8080:8080
 Change it to 8081:8080
 
 - Save the file using control x + y + enter.
+
+- Check Logs
+
+List running containers :
+
+```
+docker compose ps -a
+```
+
+Response should be like the image:
+
+
+- Node not running? check logs: 
+
+```
+docker compose logs -fn 1000
+```
+skip logs if you have all containers running.
