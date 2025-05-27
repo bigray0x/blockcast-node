@@ -96,8 +96,7 @@ curl -s https://ipinfo.io | jq '.city, .region, .country, .loc'
 docker compose exec blockcastd blockcastd init
 ```
 
-Copy and paste the Registration URL from the terminal in browser to open the Dashboard.
-With your Hardware ID and Challenge Key pre-filled, Fill-in your location from previous command.
+Copy and paste the Registration URL from the terminal and fill the registration With your Hardware ID and Challenge Key pre-filled, Fill-in your location from previous command.
 Register your Node.
 
 
