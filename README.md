@@ -82,11 +82,15 @@ skip logs if you have all containers running.
 
 - Get location: 
 
+``` 
 curl -s https://ipinfo.io | jq '.city, .region, .country, .loc'
+```
 
 - Generate Node Data & Register:
 
+```
 docker compose exec blockcastd blockcastd init
+```
 
 Copy and paste the Registration URL from the terminal in browser to open the Dashboard.
 With your Hardware ID and Challenge Key pre-filled, Fill-in your location from previous command.
