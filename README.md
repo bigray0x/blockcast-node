@@ -43,10 +43,10 @@ NB : if you’re running another node that uses port 8080 like Aztec and few oth
 - Here’s how you can do it:
 
 ``` 
-nano docker-compose.yaml
+cd blockcast-node && nano docker-compose.yaml
 ```
 
-Navigate to the line where you see 8080:800
+Navigate to the line where you see 8080:8080
 Change it to 8081:8080
 
 - Save the file using control x + y + enter.
