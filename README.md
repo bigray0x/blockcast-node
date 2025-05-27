@@ -16,15 +16,18 @@ how to install?
 
 ### install requried dependencies :
 
-```command -v git >/dev/null || (sudo apt-get update && sudo apt-get install -y git)
+```
+command -v git >/dev/null || (sudo apt-get update && sudo apt-get install -y git)
 ```
 
 ### clone the repo :
 
-```git clone https://github.com/bigray0x/blockcast-node && cd blockcast-node 
+```
+git clone https://github.com/bigray0x/blockcast-node && cd blockcast-node 
 ```
 
 install required packages using the script   
 
-```chmod +x setup.ah && ./setup.sh
+```
+chmod +x setup.ah && ./setup.sh
 ```
