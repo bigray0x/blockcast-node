@@ -36,7 +36,7 @@ chmod +x setup.ah && ./setup.sh
 
 - Register Dashboard:
 
-To get started, register in [Dashboard](https://app.blockcast.network?referral-code=Kk51D4)
+To get started, register in [Dashboard](https://app.blockcast.network?referral-code=Kk51D4, after setting up your account then start it below. 
 
 ``` 
 docker-compose up -d
