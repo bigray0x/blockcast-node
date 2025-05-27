@@ -79,14 +79,18 @@ skip logs if you have all containers running.
 
 ![Image 5-26-25 at 5 10 PM](https://github.com/user-attachments/assets/72b76df6-9d56-4195-80f9-0a4b6432cc46)
 
+->> Generate Node Data & Register:
 
-- Get location: 
+- go to the dashboard - [Dashboard](https://app.blockcast.network?referral-code=Kk51D4)
+- go to register node 
+- fill the details gotten from below.
+
+->Get location:
 
 ``` 
 curl -s https://ipinfo.io | jq '.city, .region, .country, .loc'
 ```
-
-- Generate Node Data & Register:
+->Get Node Data:
 
 ```
 docker compose exec blockcastd blockcastd init
@@ -97,7 +101,7 @@ With your Hardware ID and Challenge Key pre-filled, Fill-in your location from p
 Register your Node.
 
 
-Wait a few minutes until your node truns Online
+Wait a few minutes until your node comes online to be sure it's running.
 
 ![Image 5-26-25 at 4 59 PM](https://github.com/user-attachments/assets/c6c93baf-a3b5-491b-8f52-38dd2034c4b8)
 
