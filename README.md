@@ -14,13 +14,13 @@ this node will work on linux PCs or VPS.
 
 how to install?  
 
-### install requried dependencies :
+### step-1 :install requried dependencies :
 
 ```
 command -v git >/dev/null || (sudo apt-get update && sudo apt-get install -y git)
 ```
 
-### clone the repo :
+### step-2 :clone the repo :
 
 ```
 git clone https://github.com/bigray0x/blockcast-node && cd blockcast-node 
@@ -31,3 +31,20 @@ install required packages using the script
 ```
 chmod +x setup.ah && ./setup.sh
 ```
+
+### Step-3 : Start the node :
+
+``` docker-compose up -d
+```
+
+NB : if you’re running another node that uses port 8080 like Aztec and few others, make sure to change port 8080 to 8081 before starting the node.
+
+- Here’s how you can do it:
+
+``` nano docker-compose.yaml
+```
+
+Navigate to the line where you see 8080:800
+Change it to 8081:8080
+
+- Save the file using control x + y + enter.
