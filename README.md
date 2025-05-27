@@ -16,4 +16,9 @@ how to install?
 
 ### clone the repo :
 
-git clone https://github.com/bigray0x/blockcast-node && cd blockcast-node && docker-compose up -d
+```
+git clone https://github.com/bigray0x/blockcast-node && cd blockcast-node 
+```
+```
+chmod +x setup.ah && ./setup.sh
+```
