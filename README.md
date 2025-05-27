@@ -65,6 +65,8 @@ docker compose ps -a
 
 Response should be like the image:
 
+![Image 5-26-25 at 5 08 PM](https://github.com/user-attachments/assets/aed01b07-0a8d-45f5-8e39-a9d1855b16f4)
+
 
 - Node not running? check logs: 
 
@@ -72,3 +74,26 @@ Response should be like the image:
 docker compose logs -fn 1000
 ```
 skip logs if you have all containers running.
+
+### step-4 : Register Node :
+
+![Image 5-26-25 at 5 10 PM](https://github.com/user-attachments/assets/72b76df6-9d56-4195-80f9-0a4b6432cc46)
+
+
+- Get location: 
+
+curl -s https://ipinfo.io | jq '.city, .region, .country, .loc'
+
+- Generate Node Data & Register:
+
+docker compose exec blockcastd blockcastd init
+
+Copy and paste the Registration URL from the terminal in browser to open the Dashboard.
+With your Hardware ID and Challenge Key pre-filled, Fill-in your location from previous command.
+Register your Node.
+
+
+Wait a few minutes until your node truns Online
+
+![Image 5-26-25 at 4 59 PM](https://github.com/user-attachments/assets/c6c93baf-a3b5-491b-8f52-38dd2034c4b8)
+
