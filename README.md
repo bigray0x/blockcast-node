@@ -29,7 +29,7 @@ git clone https://github.com/bigray0x/blockcast-node && cd blockcast-node
 install required packages using the script   
 
 ```
-chmod +x setup.ah && ./setup.sh
+chmod +x setup.sh && ./setup.sh
 ```
 
 ### Step-3 : Start the node :
